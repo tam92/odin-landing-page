@@ -1,0 +1,148 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer, #section1 {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+#logo {
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+#section1 div p, #links {
+    font-weight: 18px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 18px;
+}
+
+a {
+    margin-right: 18px;
+}
+
+#section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 12px 48px;
+}
+
+#section1 div {
+    margin: auto 12px;
+    padding-bottom: 48px;
+}
+
+img {
+    background-color: gray;
+    width: 300px;
+}
+
+#section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 24px;
+}
+
+#images-display {
+    display: flex;
+    flex-direction: row;
+}
+
+#images-display img {
+    width: 140px;
+    height: 140px;
+    background-color: #FFF;
+    border-radius: 10px;
+    border-color: #3882F6;
+    border-style: solid;
+}
+
+#images-display figcaption {
+    text-align: center;
+}
+
+#section3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+#section3 figure {
+    margin: 20px 120px;
+}
+
+#section3 figcaption {
+    font-size: 32px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: flex-end;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+#section4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+    margin: 24px;
+}
+
+#section4 #rounded {
+    border-radius: 12px;
+    padding: 12px 32px;
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: auto 24px;
+    width: 80%;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 6px;
+    padding: 4px 18px;
+    border-style: none;
+    font-weight: bold;
+}
+
+#btnSection4 {
+    border: 1px;
+    border-style: solid;
+    border-color: #F9FAF8;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
